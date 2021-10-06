@@ -193,10 +193,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #389adb, #ff9100);
+				background-image: -webkit-linear-gradient(to right, #389adb, #ff9100);
+				background-image: -ms-linear-gradient(to right, #389adb, #ff9100);
+				background-image: linear-gradient(to right, #389adb, #ff9100);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2440,7 +2440,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #ff9100;
 			content: '\f00c';
 		}
 
@@ -2532,7 +2532,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #389adb;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2548,7 +2548,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #ff9100;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3236,7 +3236,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #389adb;
 		}
 
 		.wrapper.style1-alt {
@@ -3252,7 +3252,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #ff9100;
 		}
 
 		.wrapper.style3-alt {
@@ -3366,7 +3366,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #389adb;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3520,7 +3520,8 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+					url("../../images/robes.jpg");;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,10 +3762,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #389adb, #ff9100);
+				background-image: -webkit-linear-gradient(to right, #389adb, #ff9100);
+				background-image: -ms-linear-gradient(to right, #389adb, #ff9100);
+				background-image: linear-gradient(to right, #389adb, #ff9100);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3853,7 +3854,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #ff9100;
 						}
 
 		}
